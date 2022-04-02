@@ -1,0 +1,12 @@
+@mixin title {
+    text-align: center;
+    padding-bottom: 65px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 41px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: $dark;
+    
+}

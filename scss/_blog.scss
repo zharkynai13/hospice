@@ -1,0 +1,44 @@
+@import "vars";
+
+.blc-contackt {
+  position: relative;
+  margin-top: 152px;
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 86px;
+  }
+
+  .blg__map {
+    position: relative;
+    max-width: 629px;
+    height: 493px;
+    /*нужно потом сменить*/
+    background: #c4c4c4;
+    border-radius: 15px;
+
+    .map__txt {
+      position: absolute;
+      top: 38%;
+      left: 38%;
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 57px;
+      color: $dark;
+    }
+  }
+  
+  
+  .name {
+    margin-bottom: 30px;
+    width: 526px;
+    height: 50px;
+  }
+  &__btn {
+    margin-top: 42px;
+    justify-self: center;
+    padding: 10px 112px;
+  }
+}

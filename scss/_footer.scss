@@ -1,0 +1,67 @@
+@import "vars";
+.footer {
+  position: relative;
+  margin-top: 105px;
+  background-color: $btn-color;
+  color: $ligth;
+  z-index: 1;
+  a {
+    display: inline-block;
+    font-weight: 500;
+    font-family: $main-font;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: $ligth;
+    text-decoration: none;
+  }
+  .footer-bg {
+    position: absolute;
+    top:-35px;
+    left: -80px;
+    z-index: -1;
+  }
+
+  &__inner {
+    padding: 84px 0 32px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 30px;
+  }
+  &__logo {
+    p {
+      margin-top: 17px;
+    }
+    h4 {
+      margin-top: 40px;
+    }
+  }
+  &__icon {
+    display: flex;
+    padding-top: 17px;
+
+    .icons {
+      margin: 0 22px;
+    }
+  }
+
+  &__nav {
+    .nav__list {
+      a {
+        padding-bottom: 7px;
+        transition: 0.5s;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__contackt {
+   a{
+     padding-bottom: 14px;
+   }
+
+  }
+ 
+}

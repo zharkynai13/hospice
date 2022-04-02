@@ -1,0 +1,21 @@
+@import "vars";
+
+.btn {
+  background: $btn-color;
+  border-radius: 5px;
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  padding: 10px 62px;
+  color: $ligth;
+  transition: 0.5s;
+
+      &:hover {
+        background-color: yellow;
+        color: $dark;
+      }
+}

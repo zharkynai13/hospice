@@ -1,0 +1,50 @@
+@import "vars";
+
+.banner {
+    position: relative;
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: $main-font;
+  }
+  &__title {
+    padding-top: 110px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 41px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: $dark;
+  }
+  &__txt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: $dark;
+    padding-bottom: 37px;
+  }
+  &__ballon {
+    position: absolute;
+    position: absolute;
+    left: 59.60%;
+    top: -80px;
+ 
+  
+  }
+  &__img {
+    background: #ffffff;
+    border: 6px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 113px;
+  }
+
+  &__img-finger1 {
+    padding-top: 80px;
+  }
+  &__line {
+    margin-top: 180px;
+    transform: matrix(0.95, -0.32, 0.32, 0.95, 0, 0);
+  }
+}
